@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load model
-with open("best_model.pkl", "rb") as f:
+with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.set_page_config(page_title="Disaster Prediction App")
